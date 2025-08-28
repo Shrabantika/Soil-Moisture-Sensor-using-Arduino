@@ -12,21 +12,32 @@ It measures soil moisture levels and displays the values on the LCD. If the soil
 - Serial Monitor support for debugging
 
 ---
-
-## 🛠️ Components Used
-- Arduino Uno
-- Soil Moisture Sensor
-- 16x2 I2C LCD Display
-- Buzzer
-- Breadboard & Jumper Wires
-- USB Cable
+## 🛠 Components Used
+- Arduino UNO  
+- Soil Moisture Sensor V2.0  
+- I2C LCD Display (16x2)  
+- Active Buzzer  
+- Breadboard & Jumper Wires  
+- USB Cable for Arduino  
 
 ---
 
-## ⚡ Circuit Connections
-- **Soil Moisture Sensor** → `A0` (Analog input)  
-- **Buzzer** → `D8`  
-- **LCD (I2C)** → `SDA → A4`, `SCL → A5`, `VCC → 5V`, `GND → GND`  
+## 🔌 Connections (Arduino UNO)
+
+### Soil Moisture Sensor → UNO
+- VCC → 5V  
+- GND → GND  
+- AOUT → A0  
+
+### I2C LCD → UNO
+- VCC → 5V  
+- GND → GND  
+- SDA → A4  
+- SCL → A5  
+
+### Buzzer → UNO
+- + → D8  
+- - → GND  
 
 ---
 
