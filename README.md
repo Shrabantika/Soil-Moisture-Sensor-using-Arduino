@@ -12,6 +12,7 @@ It measures soil moisture levels and displays the values on the LCD. If the soil
 - Serial Monitor support for debugging
 
 ---
+
 ## 🛠 Components Used
 - Arduino UNO  
 - Soil Moisture Sensor V2.0  
